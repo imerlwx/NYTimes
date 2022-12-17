@@ -1,4 +1,4 @@
-# Wikipedia Search Engine
+# NYTimes Flask app
 
 In this project, we will implement a NYTimes flask app.
 

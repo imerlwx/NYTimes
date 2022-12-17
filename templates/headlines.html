@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<body>
+    <h1>Hello, {{name}}!</h1>
+    <h2>Today's technology headlines are...</h2>
+    {% for i in range(5) %}
+    <div class="content">
+        <a>{{i+1}}.</a>
+        <a href="{{news_list[i]['url']}}">{{news_list[i]['title']}}</a>
+    </div>
+    {% endfor %}
+</body>
+
+</html>
